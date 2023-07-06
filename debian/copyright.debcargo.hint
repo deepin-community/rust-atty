@@ -4,12 +4,25 @@ Upstream-Contact: softprops <d.tangren@gmail.com>
 Source: https://github.com/softprops/atty
 
 Files: *
-Copyright: 2015-2019 Doug Tangren
+Copyright: FIXME (overlay) UNKNOWN-YEARS softprops <d.tangren@gmail.com>
 License: MIT
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE
+Copyright: 2015-2019 Doug Tangren
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
-Copyright: 2018-2019 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
-           2018-2019 Sylvestre Ledru <sylvestre@debian.org>
+Copyright:
+ 2018-2020 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2018-2020 Sylvestre Ledru <sylvestre@debian.org>
 License: MIT
 
 License: MIT
