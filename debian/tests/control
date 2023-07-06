@@ -1,0 +1,7 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test atty 0.2.14 --all-targets --all-features
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable, flaky
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test atty 0.2.14 --all-targets --no-default-features
+Depends: dh-cargo (>= 18), librust-atty-dev
+Restrictions: allow-stderr, skip-not-installable, flaky
